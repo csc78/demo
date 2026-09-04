@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Animation</title>
+<style>
+.box{
+margin-left:10px;
+width:100px;
+height:100px;
+background-color:blue;
+animation:rotate 3s linear infinite;
+}
+@keyframes rotate{
+from{
+transform:rotate(0deg);
+}
+to{
+transform:rotate(360deg);
+}
+}
+</style>
+</head>
+<body>
+<h1>Moving Box</h1>
+<div class="box"></div>
+</body>
+</html>
